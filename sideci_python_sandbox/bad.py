@@ -12,3 +12,8 @@ class Command(ScrapyCommand):
     def add_items(self, lvl, new_items):
         old_items = self.items.get(lvl, [])
         self.items[lvl] = old_items + new_items
+
+
+class A:
+    def f():
+        foo
